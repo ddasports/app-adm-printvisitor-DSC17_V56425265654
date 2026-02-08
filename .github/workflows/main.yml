@@ -36,7 +36,7 @@ jobs:
           
       - name: Send receipt on Telegram
         run: |
-          MESSAGE="Visitor Receipt
+          MESSAGE="<b>Visitor Receipt</b>
       
           Complex Name - Dwarka Sports Complex Sector 17
           Receipt Date - $DATE_READABLE
@@ -49,7 +49,7 @@ jobs:
           Transaction Type - QR Code
           User/Time - recp3 / 5:10 PM
       
-          Note:
+          <b>Note</b>:
           Once the receipt is issued, money will not be refunded.
           The management accepts no responsibility for any accident or mishap.
           Any injuries / infections / loss of life while availing the facilities
@@ -57,7 +57,7 @@ jobs:
           No compensation or claim shall be entertained.
       
           Best Regards,
-          DDA / DSC17
+          <b>DDA / DSC17</b>
       
           <a href='https://ddasports.github.io/app-adm-printvisitor-DSC17_V56425265654/'>Verify Receipt</a>"
       
